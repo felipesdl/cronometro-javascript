@@ -1,0 +1,40 @@
+:root{
+    --primary-color: rgb(0, 141, 24);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background: var(--primary-color);
+    font-family: sans-serif;
+    padding-top: 10rem;
+    font-size: 1.3rem;
+}
+
+
+.container {
+    max-width: 32rem;
+    background-color: var(--secondary-color);
+    border: 5rem auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.container h1{
+    text-align: center;
+    padding: 0 auto;
+}
+
+.relogio{
+    font-size: 3rem;
+}
+
+.pausado{
+    color: red;
+}
+
